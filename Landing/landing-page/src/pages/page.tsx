@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 
 export default function PageMain() {
   return (
-    <div className="text-center">
+    <div className="text-center space-y-8 p-6">
       <Header />
-      <Main/>
-      <Footer/>
+      <Main />
+      <Footer />
     </div>
   );
 }
